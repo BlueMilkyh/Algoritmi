@@ -1,0 +1,15 @@
+D:\Work\Algoritmi\Algoritmi-AOC\bin\Debug\net8.0\Algoritmi-AOC.exe
+D:\Work\Algoritmi\Algoritmi-AOC\bin\Debug\net8.0\Algoritmi-AOC.deps.json
+D:\Work\Algoritmi\Algoritmi-AOC\bin\Debug\net8.0\Algoritmi-AOC.runtimeconfig.json
+D:\Work\Algoritmi\Algoritmi-AOC\bin\Debug\net8.0\Algoritmi-AOC.dll
+D:\Work\Algoritmi\Algoritmi-AOC\bin\Debug\net8.0\Algoritmi-AOC.pdb
+D:\Work\Algoritmi\Algoritmi-AOC\obj\Debug\net8.0\Algoritmi-AOC.GeneratedMSBuildEditorConfig.editorconfig
+D:\Work\Algoritmi\Algoritmi-AOC\obj\Debug\net8.0\Algoritmi-AOC.AssemblyInfoInputs.cache
+D:\Work\Algoritmi\Algoritmi-AOC\obj\Debug\net8.0\Algoritmi-AOC.AssemblyInfo.cs
+D:\Work\Algoritmi\Algoritmi-AOC\obj\Debug\net8.0\Algoritmi-AOC.csproj.CoreCompileInputs.cache
+D:\Work\Algoritmi\Algoritmi-AOC\obj\Debug\net8.0\Algoritmi-AOC.sourcelink.json
+D:\Work\Algoritmi\Algoritmi-AOC\obj\Debug\net8.0\Algoritmi-AOC.dll
+D:\Work\Algoritmi\Algoritmi-AOC\obj\Debug\net8.0\refint\Algoritmi-AOC.dll
+D:\Work\Algoritmi\Algoritmi-AOC\obj\Debug\net8.0\Algoritmi-AOC.pdb
+D:\Work\Algoritmi\Algoritmi-AOC\obj\Debug\net8.0\Algoritmi-AOC.genruntimeconfig.cache
+D:\Work\Algoritmi\Algoritmi-AOC\obj\Debug\net8.0\ref\Algoritmi-AOC.dll

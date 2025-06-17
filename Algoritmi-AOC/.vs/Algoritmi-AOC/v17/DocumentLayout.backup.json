@@ -1,0 +1,62 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Work\\Algoritmi\\Algoritmi-AOC\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{39039575-2223-44EC-81F0-9B63D5997B68}|Algoritmi-AOC.csproj|d:\\work\\algoritmi\\algoritmi-aoc\\day9.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{39039575-2223-44EC-81F0-9B63D5997B68}|Algoritmi-AOC.csproj|solutionrelative:day9.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{39039575-2223-44EC-81F0-9B63D5997B68}|Algoritmi-AOC.csproj|d:\\work\\algoritmi\\algoritmi-aoc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{39039575-2223-44EC-81F0-9B63D5997B68}|Algoritmi-AOC.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 272,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Day9.cs",
+              "DocumentMoniker": "D:\\Work\\Algoritmi\\Algoritmi-AOC\\Day9.cs",
+              "RelativeDocumentMoniker": "Day9.cs",
+              "ToolTip": "D:\\Work\\Algoritmi\\Algoritmi-AOC\\Day9.cs",
+              "RelativeToolTip": "Day9.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAAkwG0AAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T16:19:39.83Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Work\\Algoritmi\\Algoritmi-AOC\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\Work\\Algoritmi\\Algoritmi-AOC\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T16:18:19.413Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
