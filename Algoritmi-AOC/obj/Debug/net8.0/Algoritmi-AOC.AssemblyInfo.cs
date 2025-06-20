@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Algoritmi-AOC")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2aa1fa5f0a18a43e53e83427866c07d4896fbf63")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a529e98d5af2545425791e4b168e53c6a065e960")]
 [assembly: System.Reflection.AssemblyProductAttribute("Algoritmi-AOC")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Algoritmi-AOC")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
