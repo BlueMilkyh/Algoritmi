@@ -52,6 +52,7 @@ class Program
                 {
                     tail[0] += Math.Sign(diffX);
                     tail[1] += Math.Sign(diffY);
+
                 }
 
                 visited.Add($"{tail[0]},{tail[1]}");
