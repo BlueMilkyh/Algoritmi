@@ -2,99 +2,120 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using System.Text.RegularExpressions;
 
-class Day16Part1
+class Day16_Part1
 {
     static Dictionary<string, int> flow = new();
-    static Dictionary<string, List<string>> tunnels = new();
-    static Dictionary<(string, int, int), int> memo = new();
-    static List<string> usefulValves = new();
+    static Dictionary<string, List<string>> graph = new();
     static Dictionary<(string, string), int> dist = new();
+    static List<string> usefulValves;
+    static Dictionary<(string, int, int), int> memo = new();
 
     static void Main()
     {
-        var input = LoadInput();
-        BuildGraph(input);
+        string current = Directory.GetCurrentDirectory();
+        string threeUp = Directory.GetParent(
+                            Directory.GetParent(
+                                Directory.GetParent(current).FullName
+                            ).FullName
+                        ).FullName;
+
+        string filePath = Path.Combine(threeUp, "day16.txt");
+        var input = File.ReadAllLines(filePath);
+        ParseInput(input);
         PrecomputeDistances();
 
-        var result = DFS("AA", 30, 0);
+        int result = DFS("AA", 30, 0);
         Console.WriteLine("Part 1: " + result);
     }
 
-    static List<string> LoadInput()
+    static void ParseInput(string[] lines)
     {
-        string current = Directory.GetCurrentDirectory();
-        string inputPath = Path.Combine(
-            Directory.GetParent(Directory.GetParent(Directory.GetParent(current).FullName).FullName).FullName,
-            "day16.txt"
-        );
+        // Regular expression pattern
+        // Matches lines like: Valve AA has flow rate=0; tunnels lead to valves DD, II, BB
+        // or: Valve HH has flow rate=22; tunnel leads to valve GG
+        string pattern = @"^Valve (\w+) has flow rate=(\d+); tunnels? leads? to valves? (.+)$";
+        var regex = new Regex(pattern);
 
-        return File.ReadAllLines(inputPath).ToList();
-    }
-
-    static void BuildGraph(List<string> lines)
-    {
         foreach (var line in lines)
         {
-            var parts = line.Split(new[] { "Valve ", " has flow rate=", "; tunnel", "s lead to valve", "s lead to valves ", "s lead to valve " }, StringSplitOptions.RemoveEmptyEntries);
-            var name = parts[0];
-            var rate = int.Parse(parts[1]);
-            var leadsTo = parts[2].Split(',', StringSplitOptions.RemoveEmptyEntries).Select(s => s.Trim()).ToList();
+            var match = regex.Match(line);
+            if (!match.Success)
+            {
+                Console.WriteLine("Failed to parse line: " + line);
+                continue;
+            }
+
+            string name = match.Groups[1].Value;
+            int rate = int.Parse(match.Groups[2].Value);
+            // The third group is a comma-separated list; split and trim each element.
+            var connections = match.Groups[3].Value.Split(',')
+                .Select(s => s.Trim())
+                .ToList();
 
             flow[name] = rate;
-            tunnels[name] = leadsTo;
+            graph[name] = connections;
         }
 
-        usefulValves = flow.Where(kvp => kvp.Value > 0).Select(kvp => kvp.Key).ToList();
+        usefulValves = flow.Where(kvp => kvp.Value > 0)
+                           .Select(kvp => kvp.Key)
+                           .ToList();
     }
 
     static void PrecomputeDistances()
     {
-        foreach (var from in tunnels.Keys)
+        foreach (var from in graph.Keys)
         {
+            var queue = new Queue<(string node, int steps)>();
             var visited = new HashSet<string>();
-            var queue = new Queue<(string, int)>();
             queue.Enqueue((from, 0));
             visited.Add(from);
 
-            while (queue.Any())
+            while (queue.Count > 0)
             {
-                var (curr, d) = queue.Dequeue();
-                dist[(from, curr)] = d;
+                var (curr, steps) = queue.Dequeue();
+                dist[(from, curr)] = steps;
 
-                foreach (var next in tunnels[curr])
+                foreach (var next in graph[curr])
                 {
                     if (!visited.Contains(next))
                     {
                         visited.Add(next);
-                        queue.Enqueue((next, d + 1));
+                        queue.Enqueue((next, steps + 1));
                     }
                 }
             }
         }
     }
 
-    static int DFS(string valve, int time, int openedBitmask)
+    static int DFS(string pos, int time, int opened)
     {
-        if (memo.TryGetValue((valve, time, openedBitmask), out var cached))
-            return cached;
+        if (memo.TryGetValue((pos, time, opened), out int result))
+            return result;
 
-        int max = 0;
+        int best = 0;
+
         for (int i = 0; i < usefulValves.Count; i++)
         {
-            if ((openedBitmask & (1 << i)) != 0) continue;
+            if ((opened & (1 << i)) != 0)
+                continue;
 
             string next = usefulValves[i];
-            int cost = dist[(valve, next)] + 1;
+            int cost = dist[(pos, next)] + 1;
+            int timeLeft = time - cost;
 
-            if (time - cost <= 0) continue;
+            if (timeLeft <= 0)
+                continue;
 
-            int pressure = flow[next] * (time - cost);
-            int total = DFS(next, time - cost, openedBitmask | (1 << i)) + pressure;
+            int pressure = flow[next] * timeLeft;
+            int total = DFS(next, timeLeft, opened | (1 << i)) + pressure;
 
-            if (total > max) max = total;
+            if (total > best)
+                best = total;
         }
 
-        return memo[(valve, time, openedBitmask)] = max;
+        memo[(pos, time, opened)] = best;
+        return best;
     }
 }
