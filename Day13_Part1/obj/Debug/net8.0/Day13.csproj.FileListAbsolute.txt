@@ -1,0 +1,15 @@
+D:\Work\Algoritmi\Day13_Part1\bin\Debug\net8.0\Day13.exe
+D:\Work\Algoritmi\Day13_Part1\bin\Debug\net8.0\Day13.deps.json
+D:\Work\Algoritmi\Day13_Part1\bin\Debug\net8.0\Day13.runtimeconfig.json
+D:\Work\Algoritmi\Day13_Part1\bin\Debug\net8.0\Day13.dll
+D:\Work\Algoritmi\Day13_Part1\bin\Debug\net8.0\Day13.pdb
+D:\Work\Algoritmi\Day13_Part1\obj\Debug\net8.0\Day13.GeneratedMSBuildEditorConfig.editorconfig
+D:\Work\Algoritmi\Day13_Part1\obj\Debug\net8.0\Day13.AssemblyInfoInputs.cache
+D:\Work\Algoritmi\Day13_Part1\obj\Debug\net8.0\Day13.AssemblyInfo.cs
+D:\Work\Algoritmi\Day13_Part1\obj\Debug\net8.0\Day13.csproj.CoreCompileInputs.cache
+D:\Work\Algoritmi\Day13_Part1\obj\Debug\net8.0\Day13.sourcelink.json
+D:\Work\Algoritmi\Day13_Part1\obj\Debug\net8.0\Day13.dll
+D:\Work\Algoritmi\Day13_Part1\obj\Debug\net8.0\refint\Day13.dll
+D:\Work\Algoritmi\Day13_Part1\obj\Debug\net8.0\Day13.pdb
+D:\Work\Algoritmi\Day13_Part1\obj\Debug\net8.0\Day13.genruntimeconfig.cache
+D:\Work\Algoritmi\Day13_Part1\obj\Debug\net8.0\ref\Day13.dll

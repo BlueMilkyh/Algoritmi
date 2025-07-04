@@ -1,0 +1,15 @@
+D:\Work\Algoritmi\Day10_Part2\bin\Debug\net8.0\Day10.exe
+D:\Work\Algoritmi\Day10_Part2\bin\Debug\net8.0\Day10.deps.json
+D:\Work\Algoritmi\Day10_Part2\bin\Debug\net8.0\Day10.runtimeconfig.json
+D:\Work\Algoritmi\Day10_Part2\bin\Debug\net8.0\Day10.dll
+D:\Work\Algoritmi\Day10_Part2\bin\Debug\net8.0\Day10.pdb
+D:\Work\Algoritmi\Day10_Part2\obj\Debug\net8.0\Day10.GeneratedMSBuildEditorConfig.editorconfig
+D:\Work\Algoritmi\Day10_Part2\obj\Debug\net8.0\Day10.AssemblyInfoInputs.cache
+D:\Work\Algoritmi\Day10_Part2\obj\Debug\net8.0\Day10.AssemblyInfo.cs
+D:\Work\Algoritmi\Day10_Part2\obj\Debug\net8.0\Day10.csproj.CoreCompileInputs.cache
+D:\Work\Algoritmi\Day10_Part2\obj\Debug\net8.0\Day10.sourcelink.json
+D:\Work\Algoritmi\Day10_Part2\obj\Debug\net8.0\Day10.dll
+D:\Work\Algoritmi\Day10_Part2\obj\Debug\net8.0\refint\Day10.dll
+D:\Work\Algoritmi\Day10_Part2\obj\Debug\net8.0\Day10.pdb
+D:\Work\Algoritmi\Day10_Part2\obj\Debug\net8.0\Day10.genruntimeconfig.cache
+D:\Work\Algoritmi\Day10_Part2\obj\Debug\net8.0\ref\Day10.dll

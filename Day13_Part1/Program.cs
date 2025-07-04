@@ -4,29 +4,9 @@ using System.IO;
 using System.Linq;
 using System.Text.Json;
 
-class Day13Part1
+class Program
 {
-    static int ComparePackets(JsonElement left, JsonElement right)
-    {
-        if (left.ValueKind == JsonValueKind.Number && right.ValueKind == JsonValueKind.Number)
-            return left.GetInt32().CompareTo(right.GetInt32());
-
-        if (left.ValueKind == JsonValueKind.Number)
-            left = JsonDocument.Parse($"[{left.GetRawText()}]").RootElement;
-        if (right.ValueKind == JsonValueKind.Number)
-            right = JsonDocument.Parse($"[{right.GetRawText()}]").RootElement;
-
-        var leftArr = left.EnumerateArray().ToArray();
-        var rightArr = right.EnumerateArray().ToArray();
-        for (int i = 0; i < Math.Min(leftArr.Length, rightArr.Length); i++)
-        {
-            int cmp = ComparePackets(leftArr[i], rightArr[i]);
-            if (cmp != 0) return cmp;
-        }
-        return leftArr.Length.CompareTo(rightArr.Length);
-    }
-
-    static void Main()
+    static void Main(string[] args)
     {
         string current = Directory.GetCurrentDirectory();
         string threeUp = Directory.GetParent(
@@ -34,27 +14,86 @@ class Day13Part1
                                 Directory.GetParent(current).FullName
                             ).FullName
                         ).FullName;
+
         string filePath = Path.Combine(threeUp, "day13.txt");
 
-        if (!File.Exists(filePath))
+        var input = File.ReadAllText(filePath);
+        var packets = ParseInput(input);
+
+        // Part 1
+        var sum = 0;
+        for (int i = 0; i < packets.Count; i += 2)
         {
-            Console.WriteLine($"File not found: {filePath}");
-            return;
+            var pairIndex = (i / 2) + 1;
+            if (Compare(packets[i], packets[i + 1]) <= 0)
+            {
+                sum += pairIndex;
+            }
+        }
+        Console.WriteLine($"Part 1: {sum}");
+
+        // Part 2
+        var divider1 = ParsePacket("[[2]]");
+        var divider2 = ParsePacket("[[6]]");
+
+        packets.Add(divider1);
+        packets.Add(divider2);
+
+        packets.Sort((a, b) => Compare(a, b));
+
+        var index1 = packets.IndexOf(divider1) + 1;
+        var index2 = packets.IndexOf(divider2) + 1;
+
+        Console.WriteLine($"Part 2: {index1 * index2}");
+    }
+
+    static List<JsonElement> ParseInput(string input)
+    {
+        return input.Split('\n', StringSplitOptions.RemoveEmptyEntries)
+                    .Where(line => !string.IsNullOrWhiteSpace(line))
+                    .Select(ParsePacket)
+                    .ToList();
+    }
+
+    static JsonElement ParsePacket(string line)
+    {
+        try
+        {
+            using var doc = JsonDocument.Parse(line);
+            return doc.RootElement.Clone();
+        }
+        catch (JsonException ex)
+        {
+            Console.WriteLine($"Error parsing line: '{line}'");
+            throw;
+        }
+    }
+
+    static int Compare(JsonElement left, JsonElement right)
+    {
+        if (left.ValueKind == JsonValueKind.Number && right.ValueKind == JsonValueKind.Number)
+        {
+            return left.GetInt32().CompareTo(right.GetInt32());
         }
 
-        var lines = File.ReadAllLines(filePath);
-        int indexSum = 0;
-        int pairIndex = 1;
+        var leftArray = left.ValueKind == JsonValueKind.Array ? left : WrapInArray(left);
+        var rightArray = right.ValueKind == JsonValueKind.Array ? right : WrapInArray(right);
 
-        for (int i = 0; i < lines.Length; i += 3)
+        for (int i = 0; i < Math.Min(leftArray.GetArrayLength(), rightArray.GetArrayLength()); i++)
         {
-            var left = JsonDocument.Parse(lines[i]).RootElement;
-            var right = JsonDocument.Parse(lines[i + 1]).RootElement;
-            if (ComparePackets(left, right) < 0)
-                indexSum += pairIndex;
-            pairIndex++;
+            var comparison = Compare(leftArray[i], rightArray[i]);
+            if (comparison != 0)
+            {
+                return comparison;
+            }
         }
 
-        Console.WriteLine($"Part 1: {indexSum}");
+        return leftArray.GetArrayLength().CompareTo(rightArray.GetArrayLength());
+    }
+
+    static JsonElement WrapInArray(JsonElement element)
+    {
+        using var doc = JsonDocument.Parse($"[{element}]");
+        return doc.RootElement.Clone();
     }
 }
