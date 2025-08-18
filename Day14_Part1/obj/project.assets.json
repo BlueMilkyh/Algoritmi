@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Work\\Algoritmi\\Day14_Part1\\Day14_Part1.csproj",
-      "projectName": "Day14_Part1",
-      "projectPath": "D:\\Work\\Algoritmi\\Day14_Part1\\Day14_Part1.csproj",
+      "projectUniqueName": "D:\\Work\\Algoritmi\\Day14_Part1\\Day14.csproj",
+      "projectName": "Day14",
+      "projectPath": "D:\\Work\\Algoritmi\\Day14_Part1\\Day14.csproj",
       "packagesPath": "C:\\Users\\BlueMilkyh\\.nuget\\packages\\",
       "outputPath": "D:\\Work\\Algoritmi\\Day14_Part1\\obj\\",
       "projectStyle": "PackageReference",

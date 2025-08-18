@@ -1,0 +1,15 @@
+D:\Work\Algoritmi\Day14_Part1\bin\Debug\net8.0\Day14.exe
+D:\Work\Algoritmi\Day14_Part1\bin\Debug\net8.0\Day14.deps.json
+D:\Work\Algoritmi\Day14_Part1\bin\Debug\net8.0\Day14.runtimeconfig.json
+D:\Work\Algoritmi\Day14_Part1\bin\Debug\net8.0\Day14.dll
+D:\Work\Algoritmi\Day14_Part1\bin\Debug\net8.0\Day14.pdb
+D:\Work\Algoritmi\Day14_Part1\obj\Debug\net8.0\Day14.GeneratedMSBuildEditorConfig.editorconfig
+D:\Work\Algoritmi\Day14_Part1\obj\Debug\net8.0\Day14.AssemblyInfoInputs.cache
+D:\Work\Algoritmi\Day14_Part1\obj\Debug\net8.0\Day14.AssemblyInfo.cs
+D:\Work\Algoritmi\Day14_Part1\obj\Debug\net8.0\Day14.csproj.CoreCompileInputs.cache
+D:\Work\Algoritmi\Day14_Part1\obj\Debug\net8.0\Day14.sourcelink.json
+D:\Work\Algoritmi\Day14_Part1\obj\Debug\net8.0\Day14.dll
+D:\Work\Algoritmi\Day14_Part1\obj\Debug\net8.0\refint\Day14.dll
+D:\Work\Algoritmi\Day14_Part1\obj\Debug\net8.0\Day14.pdb
+D:\Work\Algoritmi\Day14_Part1\obj\Debug\net8.0\Day14.genruntimeconfig.cache
+D:\Work\Algoritmi\Day14_Part1\obj\Debug\net8.0\ref\Day14.dll
