@@ -1,0 +1,15 @@
+D:\Work\Algoritmi\Day23\bin\Debug\net8.0\Day23.exe
+D:\Work\Algoritmi\Day23\bin\Debug\net8.0\Day23.deps.json
+D:\Work\Algoritmi\Day23\bin\Debug\net8.0\Day23.runtimeconfig.json
+D:\Work\Algoritmi\Day23\bin\Debug\net8.0\Day23.dll
+D:\Work\Algoritmi\Day23\bin\Debug\net8.0\Day23.pdb
+D:\Work\Algoritmi\Day23\obj\Debug\net8.0\Day23.GeneratedMSBuildEditorConfig.editorconfig
+D:\Work\Algoritmi\Day23\obj\Debug\net8.0\Day23.AssemblyInfoInputs.cache
+D:\Work\Algoritmi\Day23\obj\Debug\net8.0\Day23.AssemblyInfo.cs
+D:\Work\Algoritmi\Day23\obj\Debug\net8.0\Day23.csproj.CoreCompileInputs.cache
+D:\Work\Algoritmi\Day23\obj\Debug\net8.0\Day23.sourcelink.json
+D:\Work\Algoritmi\Day23\obj\Debug\net8.0\Day23.dll
+D:\Work\Algoritmi\Day23\obj\Debug\net8.0\refint\Day23.dll
+D:\Work\Algoritmi\Day23\obj\Debug\net8.0\Day23.pdb
+D:\Work\Algoritmi\Day23\obj\Debug\net8.0\Day23.genruntimeconfig.cache
+D:\Work\Algoritmi\Day23\obj\Debug\net8.0\ref\Day23.dll

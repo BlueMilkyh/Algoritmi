@@ -3,33 +3,10 @@
   "WorkspaceRootPath": "D:\\Work\\Algoritmi\\Algoritmi-AOC\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{06449F1B-EB86-4E50-B862-F681D2E1BB52}|..\\Day13_Part1\\Day13.csproj|d:\\work\\algoritmi\\day13_part1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D9714EF9-260D-488E-962D-98A7F8BAAF58}|..\\Day23\\Day23.csproj|d:\\work\\algoritmi\\day23\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F9DB2404-34BC-4617-9AD8-27E5FF9634CD}|..\\Day10_Part2\\Day10.csproj|d:\\work\\algoritmi\\day10_part2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F9DB2404-34BC-4617-9AD8-27E5FF9634CD}|..\\Day10_Part2\\Day10.csproj|d:\\work\\algoritmi\\day10_part2\\day10.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{27C065FC-2746-48A6-8B31-75F6433EE9D1}|..\\Day9_Part2\\Day9_Part2.csproj|d:\\work\\algoritmi\\day9_part2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{39039575-2223-44EC-81F0-9B63D5997B68}|Day9_Part1.csproj|d:\\work\\algoritmi\\algoritmi-aoc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{39039575-2223-44EC-81F0-9B63D5997B68}|Day9_Part1.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1B653870-CFB9-44A4-9CE2-B016E8969A6F}|..\\Day14_Part1\\Day14.csproj|d:\\work\\algoritmi\\day14_part1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1B653870-CFB9-44A4-9CE2-B016E8969A6F}|..\\Day14_Part1\\Day14.csproj|d:\\work\\algoritmi\\day14_part1\\day14.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{39039575-2223-44EC-81F0-9B63D5997B68}|Day9_Part1.csproj|d:\\work\\algoritmi\\algoritmi-aoc\\day9_part1.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{39039575-2223-44EC-81F0-9B63D5997B68}|Day9_Part1.csproj|solutionrelative:day9_part1.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{06449F1B-EB86-4E50-B862-F681D2E1BB52}|..\\Day13_Part1\\Day13.csproj|d:\\work\\algoritmi\\day13_part1\\day13.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{D9714EF9-260D-488E-962D-98A7F8BAAF58}|..\\Day23\\Day23.csproj|d:\\work\\algoritmi\\day23\\day23.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
   ],
   "DocumentGroupContainers": [
@@ -39,7 +16,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 128,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -51,116 +28,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "day10.txt",
-              "DocumentMoniker": "D:\\Work\\Algoritmi\\Day10_Part2\\day10.txt",
-              "RelativeDocumentMoniker": "..\\Day10_Part2\\day10.txt",
-              "ToolTip": "D:\\Work\\Algoritmi\\Day10_Part2\\day10.txt",
-              "RelativeToolTip": "..\\Day10_Part2\\day10.txt",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "day23.txt",
+              "DocumentMoniker": "D:\\Work\\Algoritmi\\Day23\\day23.txt",
+              "RelativeDocumentMoniker": "..\\Day23\\day23.txt",
+              "ToolTip": "D:\\Work\\Algoritmi\\Day23\\day23.txt",
+              "RelativeToolTip": "..\\Day23\\day23.txt",
+              "ViewState": "AgIAACYAAAAAAAAAAAAQwEoAAABLAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2025-08-21T18:56:05.98Z",
+              "WhenOpened": "2025-09-07T21:29:37.831Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "day14.txt",
-              "DocumentMoniker": "D:\\Work\\Algoritmi\\Day14_Part1\\day14.txt",
-              "RelativeDocumentMoniker": "..\\Day14_Part1\\day14.txt",
-              "ToolTip": "D:\\Work\\Algoritmi\\Day14_Part1\\day14.txt",
-              "RelativeToolTip": "..\\Day14_Part1\\day14.txt",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2025-08-18T20:42:45.177Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Work\\Algoritmi\\Day14_Part1\\Program.cs",
-              "RelativeDocumentMoniker": "..\\Day14_Part1\\Program.cs",
-              "ToolTip": "D:\\Work\\Algoritmi\\Day14_Part1\\Program.cs",
-              "RelativeToolTip": "..\\Day14_Part1\\Program.cs",
-              "ViewState": "AgIAAH0AAAAAAAAAAAAwwJ8AAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-18T20:37:59.301Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Work\\Algoritmi\\Day9_Part2\\Program.cs",
-              "RelativeDocumentMoniker": "..\\Day9_Part2\\Program.cs",
-              "ToolTip": "D:\\Work\\Algoritmi\\Day9_Part2\\Program.cs",
-              "RelativeToolTip": "..\\Day9_Part2\\Program.cs",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAgwCcAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-18T20:37:39.381Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Work\\Algoritmi\\Algoritmi-AOC\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "D:\\Work\\Algoritmi\\Algoritmi-AOC\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAgwDMAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-18T20:37:32.621Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Day9_Part1.csproj",
-              "DocumentMoniker": "D:\\Work\\Algoritmi\\Algoritmi-AOC\\Day9_Part1.csproj",
-              "RelativeDocumentMoniker": "Day9_Part1.csproj",
-              "ToolTip": "D:\\Work\\Algoritmi\\Algoritmi-AOC\\Day9_Part1.csproj",
-              "RelativeToolTip": "Day9_Part1.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-08-18T20:37:30.019Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "day13.txt",
-              "DocumentMoniker": "D:\\Work\\Algoritmi\\Day13_Part1\\day13.txt",
-              "RelativeDocumentMoniker": "..\\Day13_Part1\\day13.txt",
-              "ToolTip": "D:\\Work\\Algoritmi\\Day13_Part1\\day13.txt",
-              "RelativeToolTip": "..\\Day13_Part1\\day13.txt",
-              "ViewState": "AgIAAKIBAAAAAAAAAAAiwMABAABVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2025-07-04T23:11:58.595Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Work\\Algoritmi\\Day13_Part1\\Program.cs",
-              "RelativeDocumentMoniker": "..\\Day13_Part1\\Program.cs",
-              "ToolTip": "D:\\Work\\Algoritmi\\Day13_Part1\\Program.cs",
-              "RelativeToolTip": "..\\Day13_Part1\\Program.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAgwBEAAAA9AAAAAAAAAA==",
+              "DocumentMoniker": "D:\\Work\\Algoritmi\\Day23\\Program.cs",
+              "RelativeDocumentMoniker": "..\\Day23\\Program.cs",
+              "ToolTip": "D:\\Work\\Algoritmi\\Day23\\Program.cs",
+              "RelativeToolTip": "..\\Day23\\Program.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAgwEsAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-04T23:10:29.945Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Work\\Algoritmi\\Day10_Part2\\Program.cs",
-              "RelativeDocumentMoniker": "..\\Day10_Part2\\Program.cs",
-              "ToolTip": "D:\\Work\\Algoritmi\\Day10_Part2\\Program.cs",
-              "RelativeToolTip": "..\\Day10_Part2\\Program.cs",
-              "ViewState": "AgIAADIAAAAAAAAAAAAIwBoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-04T22:53:21.335Z",
+              "WhenOpened": "2025-09-07T21:28:58.755Z",
               "EditorCaption": ""
             }
           ]

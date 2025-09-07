@@ -1,0 +1,15 @@
+D:\Work\Algoritmi\Day18\bin\Debug\net8.0\Day18.exe
+D:\Work\Algoritmi\Day18\bin\Debug\net8.0\Day18.deps.json
+D:\Work\Algoritmi\Day18\bin\Debug\net8.0\Day18.runtimeconfig.json
+D:\Work\Algoritmi\Day18\bin\Debug\net8.0\Day18.dll
+D:\Work\Algoritmi\Day18\bin\Debug\net8.0\Day18.pdb
+D:\Work\Algoritmi\Day18\obj\Debug\net8.0\Day18.GeneratedMSBuildEditorConfig.editorconfig
+D:\Work\Algoritmi\Day18\obj\Debug\net8.0\Day18.AssemblyInfoInputs.cache
+D:\Work\Algoritmi\Day18\obj\Debug\net8.0\Day18.AssemblyInfo.cs
+D:\Work\Algoritmi\Day18\obj\Debug\net8.0\Day18.csproj.CoreCompileInputs.cache
+D:\Work\Algoritmi\Day18\obj\Debug\net8.0\Day18.sourcelink.json
+D:\Work\Algoritmi\Day18\obj\Debug\net8.0\Day18.dll
+D:\Work\Algoritmi\Day18\obj\Debug\net8.0\refint\Day18.dll
+D:\Work\Algoritmi\Day18\obj\Debug\net8.0\Day18.pdb
+D:\Work\Algoritmi\Day18\obj\Debug\net8.0\Day18.genruntimeconfig.cache
+D:\Work\Algoritmi\Day18\obj\Debug\net8.0\ref\Day18.dll
