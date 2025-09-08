@@ -73,7 +73,6 @@ class Program
 
         // ------------------------------------------------------------
         // 3) 1. del – skupna površina (tudi proti notranjim zračnim žepom)
-        //    Za vsako kocko štejemo ploskve, ki niso pokrite s sosednjo kocko.
         // ------------------------------------------------------------
         long part1 = 0;
         foreach (var p in lava)
@@ -86,10 +85,7 @@ class Program
         }
 
         // ------------------------------------------------------------
-        // 4) 2. del – zunanja površina
-        //    Ideja: omejimo prostorsko območje na "bounding box" + 1 rob v vse smeri
-        //    in izvedemo BFS po zraku, ki je dosegljiv od zunaj. Zatem štejemo le
-        //    tiste ploskve, ki mejijo na ta zunanji zrak.
+        // 4) 2. del – zunanja površina (DFS namesto BFS)
         // ------------------------------------------------------------
         int minX = lava.Min(p => p.X) - 1;
         int maxX = lava.Max(p => p.X) + 1;
@@ -103,16 +99,16 @@ class Program
             p.Y >= minY && p.Y <= maxY &&
             p.Z >= minZ && p.Z <= maxZ;
 
-        // BFS od "zunanjega" zraka (začnemo v vogalu izven lave)
+        // DFS od "zunanjega" zraka (začnemo v vogalu izven lave)
         var start = new P3(minX, minY, minZ);
-        var qBfs = new Queue<P3>();
+        var stack = new Stack<P3>();
         var outsideAir = new HashSet<P3>();
-        qBfs.Enqueue(start);
+        stack.Push(start);
         outsideAir.Add(start);
 
-        while (qBfs.Count > 0)
+        while (stack.Count > 0)
         {
-            var cur = qBfs.Dequeue();
+            var cur = stack.Pop();
             foreach (var d in DIRS)
             {
                 var nxt = new P3(cur.X + d.X, cur.Y + d.Y, cur.Z + d.Z);
@@ -120,7 +116,7 @@ class Program
                 if (lava.Contains(nxt)) continue;        // lava ni zrak
                 if (outsideAir.Contains(nxt)) continue;  // že obiskano
                 outsideAir.Add(nxt);
-                qBfs.Enqueue(nxt);
+                stack.Push(nxt);
             }
         }
 

@@ -8,19 +8,27 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\BlueMilkyh\\.nuget\\packages\\": {}
+    "C:\\Users\\aljaz.fink\\.nuget\\packages\\": {},
+    "C:\\Program Files\\DevExpress 24.2\\Components\\Offline Packages": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Work\\Algoritmi\\Day14_Part1\\Day14.csproj",
+      "projectUniqueName": "C:\\Users\\aljaz.fink\\Documents\\Algoritmi\\Day14_Part1\\Day14.csproj",
       "projectName": "Day14",
-      "projectPath": "D:\\Work\\Algoritmi\\Day14_Part1\\Day14.csproj",
-      "packagesPath": "C:\\Users\\BlueMilkyh\\.nuget\\packages\\",
-      "outputPath": "D:\\Work\\Algoritmi\\Day14_Part1\\obj\\",
+      "projectPath": "C:\\Users\\aljaz.fink\\Documents\\Algoritmi\\Day14_Part1\\Day14.csproj",
+      "packagesPath": "C:\\Users\\aljaz.fink\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\aljaz.fink\\Documents\\Algoritmi\\Day14_Part1\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\DevExpress 24.2\\Components\\Offline Packages",
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\BlueMilkyh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\aljaz.fink\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 24.2.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -28,6 +36,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\DevExpress 24.2\\Components\\System\\Components\\Packages": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -45,7 +54,8 @@
         "enableAudit": "true",
         "auditLevel": "low",
         "auditMode": "direct"
-      }
+      },
+      "SdkAnalysisLevel": "9.0.300"
     },
     "frameworks": {
       "net8.0": {
@@ -66,7 +76,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

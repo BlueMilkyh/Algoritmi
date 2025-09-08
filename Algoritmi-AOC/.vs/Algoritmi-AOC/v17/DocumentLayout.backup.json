@@ -1,12 +1,21 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Work\\Algoritmi\\Algoritmi-AOC\\",
+  "WorkspaceRootPath": "C:\\Users\\aljaz.fink\\Documents\\Algoritmi\\Algoritmi-AOC\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D9714EF9-260D-488E-962D-98A7F8BAAF58}|..\\Day23\\Day23.csproj|d:\\work\\algoritmi\\day23\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{93F5FB1B-A857-47BE-9938-FF1AF78564E0}|..\\Day17\\Day17.csproj|c:\\users\\aljaz.fink\\documents\\algoritmi\\day17\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D9714EF9-260D-488E-962D-98A7F8BAAF58}|..\\Day23\\Day23.csproj|d:\\work\\algoritmi\\day23\\day23.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{823472CD-80A2-4875-B01B-1CFD70592648}|..\\Day18\\Day18.csproj|c:\\users\\aljaz.fink\\documents\\algoritmi\\day18\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9714EF9-260D-488E-962D-98A7F8BAAF58}|..\\Day23\\Day23.csproj|c:\\users\\aljaz.fink\\documents\\algoritmi\\day23\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B653870-CFB9-44A4-9CE2-B016E8969A6F}|..\\Day14_Part1\\Day14.csproj|c:\\users\\aljaz.fink\\documents\\algoritmi\\day14_part1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06449F1B-EB86-4E50-B862-F681D2E1BB52}|..\\Day13_Part1\\Day13.csproj|c:\\users\\aljaz.fink\\documents\\algoritmi\\day13_part1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -16,40 +25,79 @@
       "DocumentGroups": [
         {
           "DockedWidth": 128,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\aljaz.fink\\Documents\\Algoritmi\\Day23\\Program.cs",
+              "RelativeDocumentMoniker": "..\\Day23\\Program.cs",
+              "ToolTip": "C:\\Users\\aljaz.fink\\Documents\\Algoritmi\\Day23\\Program.cs",
+              "RelativeToolTip": "..\\Day23\\Program.cs",
+              "ViewState": "AgIAAHEAAAAAAAAAAAAqwJYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-08T07:27:54.834Z",
+              "EditorCaption": ""
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "day23.txt",
-              "DocumentMoniker": "D:\\Work\\Algoritmi\\Day23\\day23.txt",
-              "RelativeDocumentMoniker": "..\\Day23\\day23.txt",
-              "ToolTip": "D:\\Work\\Algoritmi\\Day23\\day23.txt",
-              "RelativeToolTip": "..\\Day23\\day23.txt",
-              "ViewState": "AgIAACYAAAAAAAAAAAAQwEoAAABLAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2025-09-07T21:29:37.831Z",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\aljaz.fink\\Documents\\Algoritmi\\Day18\\Program.cs",
+              "RelativeDocumentMoniker": "..\\Day18\\Program.cs",
+              "ToolTip": "C:\\Users\\aljaz.fink\\Documents\\Algoritmi\\Day18\\Program.cs",
+              "RelativeToolTip": "..\\Day18\\Program.cs",
+              "ViewState": "AgIAAGgAAAAAAAAAAAAqwIwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-08T07:24:29.297Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Work\\Algoritmi\\Day23\\Program.cs",
-              "RelativeDocumentMoniker": "..\\Day23\\Program.cs",
-              "ToolTip": "D:\\Work\\Algoritmi\\Day23\\Program.cs",
-              "RelativeToolTip": "..\\Day23\\Program.cs",
-              "ViewState": "AgIAACIAAAAAAAAAAAAgwDEAAAAqAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\aljaz.fink\\Documents\\Algoritmi\\Day17\\Program.cs",
+              "RelativeDocumentMoniker": "..\\Day17\\Program.cs",
+              "ToolTip": "C:\\Users\\aljaz.fink\\Documents\\Algoritmi\\Day17\\Program.cs",
+              "RelativeToolTip": "..\\Day17\\Program.cs",
+              "ViewState": "AgIAAE8BAAAAAAAAAAAiwGgBAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-07T21:28:58.755Z",
+              "WhenOpened": "2025-09-08T07:24:18.085Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\aljaz.fink\\Documents\\Algoritmi\\Day14_Part1\\Program.cs",
+              "RelativeDocumentMoniker": "..\\Day14_Part1\\Program.cs",
+              "ToolTip": "C:\\Users\\aljaz.fink\\Documents\\Algoritmi\\Day14_Part1\\Program.cs",
+              "RelativeToolTip": "..\\Day14_Part1\\Program.cs",
+              "ViewState": "AgIAAGsAAAAAAAAAAAAwwJIAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-08T07:18:34.766Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\aljaz.fink\\Documents\\Algoritmi\\Day13_Part1\\Program.cs",
+              "RelativeDocumentMoniker": "..\\Day13_Part1\\Program.cs",
+              "ToolTip": "C:\\Users\\aljaz.fink\\Documents\\Algoritmi\\Day13_Part1\\Program.cs",
+              "RelativeToolTip": "..\\Day13_Part1\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-08T07:16:33.799Z",
               "EditorCaption": ""
             }
           ]
